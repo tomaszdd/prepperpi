@@ -1,0 +1,274 @@
+{
+    "version": 8,
+    "receiver_name": "PrepperPi SDR",
+    "receiver_location": "United Kingdom",
+    "receiver_asl": 15,
+    "receiver_gps": {
+        "lat": 51.5074,
+        "lon": -0.1278
+    },
+    "sdrs": {
+        "rtlsdr_v4": {
+            "name": "RTL-SDR Blog V4",
+            "type": "rtl_sdr",
+            "enabled": true,
+            "ppm": 0,
+            "rf_gain": "auto",
+            "always-on": false,
+            "services": false,
+            "profiles": {
+                "fm_broadcast": {
+                    "name": "Broadcast FM",
+                    "center_freq": 98000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 97300000,
+                    "start_mod": "wfm"
+                },
+                "radio4": {
+                    "name": "Radio 4",
+                    "center_freq": 93500000,
+                    "samp_rate": 2400000,
+                    "start_freq": 93500000,
+                    "start_mod": "wfm"
+                },
+                "airband": {
+                    "name": "Airband",
+                    "center_freq": 125000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 124750000,
+                    "start_mod": "am"
+                },
+                "marine_vhf": {
+                    "name": "Marine VHF",
+                    "center_freq": 157000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 156800000,
+                    "start_mod": "nfm"
+                },
+                "pocsag": {
+                    "name": "Pocsag Pagers",
+                    "center_freq": 153500000,
+                    "samp_rate": 2400000,
+                    "start_freq": 153500000,
+                    "start_mod": "nfm"
+                },
+                "ham_2m": {
+                    "name": "2m Amateur Band",
+                    "center_freq": 145000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 145500000,
+                    "start_mod": "nfm"
+                },
+                "ham_125m": {
+                    "name": "1.25m Amateur Band",
+                    "center_freq": 223500000,
+                    "samp_rate": 2400000,
+                    "start_freq": 223500000,
+                    "start_mod": "nfm"
+                },
+                "ham_6m": {
+                    "name": "6m Amateur Band",
+                    "center_freq": 52000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 52000000,
+                    "start_mod": "nfm"
+                },
+                "ham_70cm_ism433": {
+                    "name": "70cm Amateur & 433MHz ISM",
+                    "center_freq": 434000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 433500000,
+                    "start_mod": "nfm"
+                },
+                "pmr446": {
+                    "name": "PMR446 & UHF Business",
+                    "center_freq": 446500000,
+                    "samp_rate": 2400000,
+                    "start_freq": 446006250,
+                    "start_mod": "nfm"
+                },
+                "noaa_apt": {
+                    "name": "NOAA Weather Satellite (APT)",
+                    "center_freq": 137500000,
+                    "samp_rate": 2400000,
+                    "start_freq": 137620000,
+                    "start_mod": "wfm"
+                },
+                "adsb": {
+                    "name": "ADS-B / Air Traffic (1090MHz)",
+                    "center_freq": 1090000000,
+                    "samp_rate": 2400000,
+                    "start_freq": 1090000000,
+                    "start_mod": "am"
+                },
+                "cb_11m": {
+                    "name": "11m CB",
+                    "center_freq": 27000000,
+                    "samp_rate": 2000000,
+                    "start_freq": 27185000,
+                    "start_mod": "am"
+                },
+                "ham_10m": {
+                    "name": "10m Amateur Band",
+                    "center_freq": 28850000,
+                    "samp_rate": 2000000,
+                    "start_freq": 28850000,
+                    "start_mod": "usb"
+                },
+                "ham_12m": {
+                    "name": "12m Amateur Band",
+                    "center_freq": 24940000,
+                    "samp_rate": 250000,
+                    "start_freq": 24940000,
+                    "start_mod": "usb",
+                    "direct_sampling": 2
+                },
+                "ham_15m": {
+                    "name": "15m Amateur Band",
+                    "center_freq": 21225000,
+                    "samp_rate": 500000,
+                    "start_freq": 21225000,
+                    "start_mod": "usb",
+                    "direct_sampling": 2
+                },
+                "ham_17m": {
+                    "name": "17m Amateur Band",
+                    "center_freq": 18118000,
+                    "samp_rate": 250000,
+                    "start_freq": 18118000,
+                    "start_mod": "usb",
+                    "direct_sampling": 2
+                },
+                "ham_20m": {
+                    "name": "20m Amateur Band",
+                    "center_freq": 14175000,
+                    "samp_rate": 500000,
+                    "start_freq": 14175000,
+                    "start_mod": "usb",
+                    "direct_sampling": 2
+                },
+                "ham_30m": {
+                    "name": "30m Amateur Band",
+                    "center_freq": 10125000,
+                    "samp_rate": 250000,
+                    "start_freq": 10125000,
+                    "start_mod": "usb",
+                    "direct_sampling": 2
+                },
+                "ham_40m": {
+                    "name": "40m Amateur Band",
+                    "center_freq": 7150000,
+                    "samp_rate": 500000,
+                    "start_freq": 7150000,
+                    "start_mod": "lsb",
+                    "direct_sampling": 2
+                },
+                "ham_60m": {
+                    "name": "60m Amateur Band",
+                    "center_freq": 5350000,
+                    "samp_rate": 250000,
+                    "start_freq": 5350000,
+                    "start_mod": "usb",
+                    "direct_sampling": 2
+                },
+                "ham_80m": {
+                    "name": "80m Amateur Band",
+                    "center_freq": 3750000,
+                    "samp_rate": 500000,
+                    "start_freq": 3750000,
+                    "start_mod": "lsb",
+                    "direct_sampling": 2
+                },
+                "ham_160m": {
+                    "name": "160m Amateur Band",
+                    "center_freq": 1900000,
+                    "samp_rate": 250000,
+                    "start_freq": 1900000,
+                    "start_mod": "lsb",
+                    "direct_sampling": 2
+                },
+                "am_broadcast": {
+                    "name": "AM/MW Broadcast",
+                    "center_freq": 1100000,
+                    "samp_rate": 1000000,
+                    "start_freq": 1100000,
+                    "start_mod": "am",
+                    "direct_sampling": 2
+                },
+                "sw_49m": {
+                    "name": "49m Shortwave Broadcast",
+                    "center_freq": 6050000,
+                    "samp_rate": 500000,
+                    "start_freq": 6050000,
+                    "start_mod": "am",
+                    "direct_sampling": 2
+                },
+                "sw_41m": {
+                    "name": "41m Shortwave Broadcast",
+                    "center_freq": 7325000,
+                    "samp_rate": 250000,
+                    "start_freq": 7325000,
+                    "start_mod": "am",
+                    "direct_sampling": 2
+                },
+                "sw_31m": {
+                    "name": "31m Shortwave Broadcast",
+                    "center_freq": 9650000,
+                    "samp_rate": 500000,
+                    "start_freq": 9650000,
+                    "start_mod": "am",
+                    "direct_sampling": 2
+                },
+                "sw_25m": {
+                    "name": "25m Shortwave Broadcast",
+                    "center_freq": 11850000,
+                    "samp_rate": 500000,
+                    "start_freq": 11850000,
+                    "start_mod": "am",
+                    "direct_sampling": 2
+                },
+                "sw_22m": {
+                    "name": "22m Shortwave Broadcast",
+                    "center_freq": 13720000,
+                    "samp_rate": 500000,
+                    "start_freq": 13720000,
+                    "start_mod": "am",
+                    "direct_sampling": 2
+                },
+                "city_approach": {
+                    "name": "London City Approach",
+                    "center_freq": 132700000,
+                    "samp_rate": 2400000,
+                    "start_freq": 132700000,
+                    "start_mod": "am"
+                }
+            }
+        }
+    },
+    "receiver_admin": "example@example.com",
+    "photo_title": "",
+    "photo_desc": "",
+    "max_clients": 20,
+    "receiver_keys": [],
+    "waterfall_scheme": "GoogleTurboWaterfall",
+    "fft_fps": 9,
+    "fft_size": 4096,
+    "fft_voverlap_factor": 0.3,
+    "waterfall_levels": {
+        "min": -88.0,
+        "max": -20.0
+    },
+    "waterfall_auto_levels": {
+        "min": 3.0,
+        "max": 10.0
+    },
+    "waterfall_auto_level_default_mode": false,
+    "waterfall_auto_min_range": 50,
+    "audio_compression": "adpcm",
+    "fft_compression": "adpcm",
+    "tuning_precision": 2,
+    "google_maps_api_key": "",
+    "map_position_retention_time": 7200,
+    "callsign_service": "None",
+    "aircraft_tracking_service": "None"
+}

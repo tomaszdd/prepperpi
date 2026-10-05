@@ -1,0 +1,392 @@
+[
+  {
+    "name": "BBC Radio 2",
+    "frequency": 89100000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "BBC Radio 3",
+    "frequency": 91300000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "BBC Radio 4",
+    "frequency": 93500000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Capital London",
+    "frequency": 95800000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "LBC",
+    "frequency": 97300000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "BBC Radio 1",
+    "frequency": 98800000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Kiss London",
+    "frequency": 100000000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Classic FM",
+    "frequency": 100900000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Absolute Radio",
+    "frequency": 105800000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Heart London",
+    "frequency": 106200000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Airband Guard/Distress 121.5",
+    "frequency": 121500000,
+    "modulation": "am"
+  },
+  {
+    "name": "Air-to-air chat 123.45",
+    "frequency": 123450000,
+    "modulation": "am"
+  },
+  {
+    "name": "London Information (FIS)",
+    "frequency": 124750000,
+    "modulation": "am"
+  },
+  {
+    "name": "NOAA-19 APT",
+    "frequency": 137100000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "NOAA-15 APT",
+    "frequency": 137620000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "NOAA-18 APT",
+    "frequency": 137912500,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Marine Ch06 - Intership Safety",
+    "frequency": 156300000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "Marine Ch16 - Distress/Calling",
+    "frequency": 156800000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "Marine Ch70 - DSC Distress Alert",
+    "frequency": 156525000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "Marine Ch67 - UK Coastguard/Small Craft",
+    "frequency": 156375000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "2m SSB/CW Calling Area",
+    "frequency": 144300000,
+    "modulation": "usb"
+  },
+  {
+    "name": "2m FM Calling Channel",
+    "frequency": 145500000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "ISS APRS Packet Downlink",
+    "frequency": 145825000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "70cm FM Calling Channel",
+    "frequency": 433500000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "433MHz ISM (weather stations/sensors)",
+    "frequency": 433920000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "PMR446 Ch1 (analogue)",
+    "frequency": 446006250,
+    "modulation": "nfm"
+  },
+  {
+    "name": "PMR446 Ch9 (digital)",
+    "frequency": 446106250,
+    "modulation": "nfm"
+  },
+  {
+    "name": "ADS-B / Mode S Air Traffic",
+    "frequency": 1090000000,
+    "modulation": "am"
+  },
+  {
+    "name": "Pocsag Pagers 153.500",
+    "frequency": 153500000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "CB Ch9 - Emergency",
+    "frequency": 27065000,
+    "modulation": "am"
+  },
+  {
+    "name": "CB Ch19 - Calling",
+    "frequency": 27185000,
+    "modulation": "am"
+  },
+  {
+    "name": "10m SSB Calling",
+    "frequency": 28400000,
+    "modulation": "usb"
+  },
+  {
+    "name": "20m SSB/Maritime Mobile",
+    "frequency": 14300000,
+    "modulation": "usb"
+  },
+  {
+    "name": "30m FT8",
+    "frequency": 10136000,
+    "modulation": "usb"
+  },
+  {
+    "name": "40m SSB",
+    "frequency": 7200000,
+    "modulation": "lsb"
+  },
+  {
+    "name": "80m SSB",
+    "frequency": 3760000,
+    "modulation": "lsb"
+  },
+  {
+    "name": "160m SSB",
+    "frequency": 1900000,
+    "modulation": "lsb"
+  },
+  {
+    "name": "BBC Radio 5 Live (MW)",
+    "frequency": 909000,
+    "modulation": "am"
+  },
+  {
+    "name": "talkSPORT (MW)",
+    "frequency": 1089000,
+    "modulation": "am"
+  },
+  {
+    "name": "London City Approach",
+    "frequency": 132700000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow ATIS",
+    "frequency": 113750000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow ATIS (Arrival)",
+    "frequency": 115100000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow ATIS (Departure)",
+    "frequency": 121935000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow ATIS",
+    "frequency": 128075000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Delivery",
+    "frequency": 121975000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Director",
+    "frequency": 119725000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Director",
+    "frequency": 120400000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Director",
+    "frequency": 127525000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Director",
+    "frequency": 134975000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Ground",
+    "frequency": 121700000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Ground",
+    "frequency": 121850000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Ground",
+    "frequency": 121900000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Tower",
+    "frequency": 118500000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Tower",
+    "frequency": 118700000,
+    "modulation": "am"
+  },
+  {
+    "name": "Heathrow Tower",
+    "frequency": 124475000,
+    "modulation": "am"
+  },
+  {
+    "name": "Magic FM",
+    "frequency": 105400000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Radio X",
+    "frequency": 104900000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Smooth Radio London",
+    "frequency": 102200000,
+    "modulation": "wfm"
+  },
+  {
+    "name": "Gatwick Delivery",
+    "frequency": 121975000,
+    "modulation": "am"
+  },
+  {
+    "name": "Gatwick Ground",
+    "frequency": 121700000,
+    "modulation": "am"
+  },
+  {
+    "name": "Gatwick Tower",
+    "frequency": 124225000,
+    "modulation": "am"
+  },
+  {
+    "name": "Gatwick Approach",
+    "frequency": 126825000,
+    "modulation": "am"
+  },
+  {
+    "name": "Gatwick ATIS",
+    "frequency": 136525000,
+    "modulation": "am"
+  },
+  {
+    "name": "Luton Tower",
+    "frequency": 132550000,
+    "modulation": "am"
+  },
+  {
+    "name": "Luton Approach",
+    "frequency": 129550000,
+    "modulation": "am"
+  },
+  {
+    "name": "Luton ATIS",
+    "frequency": 128750000,
+    "modulation": "am"
+  },
+  {
+    "name": "Stansted Delivery",
+    "frequency": 121925000,
+    "modulation": "am"
+  },
+  {
+    "name": "Stansted Tower",
+    "frequency": 123805000,
+    "modulation": "am"
+  },
+  {
+    "name": "Stansted Approach",
+    "frequency": 120625000,
+    "modulation": "am"
+  },
+  {
+    "name": "Stansted ATIS",
+    "frequency": 127175000,
+    "modulation": "am"
+  },
+  {
+    "name": "London City Tower",
+    "frequency": 118075000,
+    "modulation": "am"
+  },
+  {
+    "name": "London City ATIS",
+    "frequency": 132925000,
+    "modulation": "am"
+  },
+  {
+    "name": "London Control (Area, verify locally - many sectors exist)",
+    "frequency": 127100000,
+    "modulation": "am"
+  },
+  {
+    "name": "DAB 11B - SDL National Mux",
+    "frequency": 222064000,
+    "modulation": "dab"
+  },
+  {
+    "name": "DAB 11D - London 2 Mux",
+    "frequency": 223936000,
+    "modulation": "dab"
+  },
+  {
+    "name": "DAB 12A - Digital One National Mux",
+    "frequency": 225648000,
+    "modulation": "dab"
+  },
+  {
+    "name": "DAB 12B - London 1 Mux",
+    "frequency": 227360000,
+    "modulation": "dab"
+  },
+  {
+    "name": "DAB 9A - CE Digital National Mux",
+    "frequency": 202928000,
+    "modulation": "dab"
+  }
+]
