@@ -1,5 +1,7 @@
 # prepperpi
 
+![prepperpi home page](docs/screenshot.png)
+
 An offline **grab-and-go / prepper Raspberry Pi** — a self-contained box that sits on the home network, keeps itself updated, and can be unplugged and taken anywhere. It runs its own WiFi hotspot and serves an offline library, maps, radio, an LLM assistant and more to any phone browser.
 
 The entire build is reproduced by a single idempotent script: **[`prepperpi-provision.sh`](prepperpi-provision.sh)**.
